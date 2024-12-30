@@ -40,6 +40,8 @@ Delving into the [program](./main.py) itself let's sort out some terminology:
 
     * The nature of depth-first search results in long corridors and fewer junctions, visible in the generated maze.
 
+>[!NOTE]
+>Mind you that the `0s` in the grid symbolize the walls and the `1s` symbolize the pathway. Moreover, the start position is at (1, 1) and end position at (height-2, width-2). 
 
 ## Result
 
