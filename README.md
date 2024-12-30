@@ -5,7 +5,14 @@
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
->[!NOTE]
->This project utilize a random Depth-First-Search approach to generate a maze with a guaranteed solution. 
 
 ## Introduction
+
+This project utilizes a random Depth-First-Search approach to generate a maze with a guaranteed solution. 
+
+## Methodology
+
+<img src="./miscellaneous/maze-generation.gif">
+
+## License
+MIT
