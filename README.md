@@ -20,6 +20,27 @@ As given above this algorithm involves deep recursion which may cause stack over
 
 Mazes generated with a depth-first search have a low branching factor and contain many long corridors, because the algorithm explores as far as possible along each branch before backtracking.
 
+Delving into the [program](./main.py) itself let's sort out some terminology:
+
+1. Grid Representation:
+
+    * A 2D NumPy array is used, where 0 represents walls and 1 represents passages.
+    * The grid size is odd to ensure passages are surrounded by walls.
+
+2. Randomized Depth-First Search:
+
+    * The algorithm uses a stack to manage backtracking.
+    * Walls are removed by marking the grid between cells.
+
+3. Animation:
+
+    * The matplotlib.animation module is used to create an animated visualization of the maze generation process.
+
+4. Horizontal Passage Bias:
+
+    * The nature of depth-first search results in long corridors and fewer junctions, visible in the generated maze.
+
+
 ## Result
 
 Here are 3 maze samples:
