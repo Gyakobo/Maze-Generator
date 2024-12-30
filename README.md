@@ -25,12 +25,15 @@ Mazes generated with a depth-first search have a low branching factor and contai
 Here are 3 maze samples:
 
 This is a 21x21 grid
+
 <img src="./miscellaneous/maze-generation.gif">
 
 This is a 40x40 grid
+
 <img src="./miscellaneous/maze-generation-2.gif">
 
 This is a 100x100 grid
+
 <img src="./miscellaneous/maze-generation-3.gif">
 
 In case you'd like to save `GIF` just either uncomment or add this command at the end of the `def animate_maze(frames)` function.
