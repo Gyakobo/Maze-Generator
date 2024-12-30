@@ -33,5 +33,12 @@ This is a 40x40 grid
 This is a 100x100 grid
 <img src="./miscellaneous/maze-generation-3.gif">
 
+In case you'd like to save `GIF` just either uncomment or add this command at the end of the `def animate_maze(frames)` function.
+
+```python3 
+ani.save("./miscellaneous/maze.gif", writer="pillow", fps=1000 // interval) 
+print(f"Animation saved")
+```
+
 ## License
 MIT

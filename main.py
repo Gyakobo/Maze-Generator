@@ -58,13 +58,15 @@ def animate_maze(frames, interval=50):
         return img,
 
     ani = animation.FuncAnimation(fig, update, frames=frames, interval=interval, blit=True)
-    ani.save("./miscellaneous/maze.gif", writer="pillow", fps=1000 // interval) 
-    print(f"Animation saved")
 
-    # plt.show()
+    # Uncomment to save a .GIF file 
+    # ani.save("./miscellaneous/maze.gif", writer="pillow", fps=1000 // interval) 
+    # print(f"Animation saved")
+
+    plt.show()
 
 
 # Maze dimensions (must be odd)
-width, height = 100, 100 
+width, height = 21, 21 
 maze, animation_frames = generate_maze(width, height)
 animate_maze(animation_frames)
