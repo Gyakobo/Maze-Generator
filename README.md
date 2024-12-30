@@ -13,6 +13,8 @@ This project utilizes a random Depth-First-Search approach to generate a maze wi
 ## Methodology
 
 <img src="./miscellaneous/maze-generation.gif">
+<img src="./miscellaneous/maze-generation-2.gif">
+<img src="./miscellaneous/maze-generation-3.gif">
 
 ## License
 MIT
