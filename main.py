@@ -20,7 +20,7 @@ def random_DFS_grid(size):
         return False
 
     while cur == target:
-        # Randomly select and pop an element
+        # Randomly select and pop an elemen
         random_index    = random.randrange(len(stack))
         cur             = stack.pop(random_index)
         visited.add(cur)
@@ -32,5 +32,6 @@ def random_DFS_grid(size):
                 if check_if_cell_is_valid(neighbor):
                     stack.append(neighbor)
 
+    return grid.tolist()
 
-
+print(random_DFS_grid(10))
