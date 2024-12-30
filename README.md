@@ -20,8 +20,17 @@ As given above this algorithm involves deep recursion which may cause stack over
 
 Mazes generated with a depth-first search have a low branching factor and contain many long corridors, because the algorithm explores as far as possible along each branch before backtracking.
 
+## Result
+
+Here are 3 maze samples:
+
+This is a 21x21 grid
 <img src="./miscellaneous/maze-generation.gif">
+
+This is a 40x40 grid
 <img src="./miscellaneous/maze-generation-2.gif">
+
+This is a 100x100 grid
 <img src="./miscellaneous/maze-generation-3.gif">
 
 ## License
