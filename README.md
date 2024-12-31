@@ -47,7 +47,7 @@ Delving into the [program](./main.py) itself let's sort out some terminology:
 
 Here are 3 maze samples:
 
-This is a 21x21 grid
+This is a 20x20 grid
 
 <img src="./miscellaneous/maze-generation.gif">
 
