@@ -3,7 +3,7 @@ import matplotlib.animation as animation
 import random
 import numpy as np
 
-from main import *
+# from main import *
 
 def generate_maze(width, height):
     # Initialize grid
@@ -65,8 +65,8 @@ def animate_maze(frames, interval=50):
 
     plt.show()
 
-
-# Maze dimensions (must be odd)
-width, height = 21, 21 
-maze, animation_frames = generate_maze(width, height)
-animate_maze(animation_frames)
+if __name__ == "__main__":
+    # Maze dimensions (must be odd)
+    width, height = 21, 21 
+    maze, animation_frames = generate_maze(width, height)
+    animate_maze(animation_frames)
